@@ -1,14 +1,15 @@
-import React from "react";
+
 import Home from "./Home";
 import About from "./About";
 import ProductServices from "./ProductServices";
-import OurVentures from "./OurVentures";
+
 import Clients from "./Clients";
 import Career from "./Career";
 import ContactUs from "./ContactUs";
 import Logo from "./Logo";
 import Login from "./Login";
 import Menu from "./Menu";
+import OurVentures from "./OurVentures";
 
 const Navbar = () => {
   return (
@@ -20,7 +21,7 @@ const Navbar = () => {
             <Home />
             <About />
             <ProductServices />
-            <OurVentures />
+           <OurVentures />
             <Clients />
             <Career />
             <ContactUs />
@@ -29,8 +30,8 @@ const Navbar = () => {
           <Menu />
         </div>
         <div>
-          <p className="items-cente justify-center flex pb-10 text-4xl font-bold">
-            Call Center Company
+          <p className="items-center justify-center flex pb-10 text-4xl font-bold">
+           Account Management Software In India
           </p>
         </div>
       </div>

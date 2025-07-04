@@ -4,11 +4,11 @@ import About from "./About";
 import ProductServices from "./ProductServices";
 import OurVentures from "./OurVentures";
 import Clients from "./Clients";
-import Career from "./Career";
 import ContactUs from "./ContactUs";
 import Logo from "./Logo";
 import Login from "./Login";
 import Menu from "./Menu";
+import Carrier from "./Carrier";
 
 const Navbar = () => {
   return (
@@ -22,7 +22,7 @@ const Navbar = () => {
             <ProductServices />
             <OurVentures />
             <Clients />
-            <Career />
+            <Carrier />
             <ContactUs />
           </div>
           <Login />
@@ -30,7 +30,7 @@ const Navbar = () => {
         </div>
         <div>
           <p className="items-cente justify-center flex pb-10 text-4xl font-bold">
-            Call Center Company
+           Data Extractor In India
           </p>
         </div>
       </div>

@@ -30,7 +30,7 @@ const Navbar = () => {
         </div>
         <div>
           <p className="items-cente justify-center flex pb-10 text-4xl font-bold">
-            Call Center Company
+            Google Map Data Extractor
           </p>
         </div>
       </div>
